@@ -4,4 +4,5 @@ In this report, I will use SQL to conduct my exploratory analysis as well as cre
 ### Data Exploration
 The purpose of this report is to present data of housing price by conducting SQL enquiries. To get started, I downloaded the train.csv from https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data. Then, I imported the csv file to a table I created in MySQL Workbench.Below are steps to create the table.
 Step 1: create a new schemas "housing_price_prediction" under which table data is imported from "Table Data Import Wizard".
-Step 2: 
+Step 2: browse the datase by using the code below.
+SELECT * FROM housing_price_prediction.train;
