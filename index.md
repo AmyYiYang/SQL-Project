@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+## Introduction
+In this report, I will use SQL to conduct my exploratory analysis as well as creating a transformed feature training set for my machine learning models.While R and Python are popular in data analysis,having the ability to conduct SQL enquiries can quickly get you started on data exploration.
 
-You can use the [editor on GitHub](https://github.com/AmyYiYang/SQL-Project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AmyYiYang/SQL-Project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Data Exploration
+The purpose of this report is to present data of housing price by conducting SQL enquiries. To get started, I downloaded the train.csv from https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data. Then, I imported the csv file to a table I created in MySQL Workbench.Below are steps to create the table.
+Step 1: create a new schemas "housing_price_prediction" under which table data is imported from "Table Data Import Wizard".
+Step 2: 
