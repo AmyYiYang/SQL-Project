@@ -10,4 +10,4 @@ SELECT * FROM housing_price_prediction.train;
 #calculate average housing price for paved street
 SELECT coalesce(Street,'Pave') as Street, round(avg(SalePrice),4) as avg_sale_price FROM housing_price_prediction.train;
 
-Step 3: advanced data exploration to create a table showing average housing price based on four features 'Street',
+Step 3: advanced data exploration to create a table showing average housing price based on four features
